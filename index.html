@@ -1,165 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salon & Spa</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halo Hair - Unisex Salon & Training Academy</title>
+    <meta name="description"
+        content="Halo Hair & Beauty Unisex Salon and Training Academy - Offering top-notch hair styling, skin treatments, and beauty training in Pudukadai." />
+    <meta name="keywords"
+        content="Halo Hair, Unisex Salon, Beauty Academy, Haircut, Hair Spa, Skin Treatments, Training Academy, Pudukadai Salon" />
+    <meta name="author" content="Halo Hair Team" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Halo Hair - Unisex Salon & Training Academy" />
+    <meta property="og:description"
+        content="Experience premium hair and beauty services at Halo Hair. Learn from experts at our Training Academy in Pudukadai." />
+    <meta property="og:image" content="https://example.com/preview-image.jpg" />
+    <meta property="og:url" content="https://halohair.co.in" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Halo Hair - Unisex Salon & Training Academy" />
+    <meta name="twitter:description"
+        content="Experience premium hair and beauty services at Halo Hair. Learn from experts at our Training Academy in Pudukadai." />
+    <meta name="twitter:image" content="https://example.com/preview-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/logo.PNG" type="image/x-icon" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "BeautySalon",
+              "name": "Halo hair",
+              "url": "https://halohair.co.in",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Muncharai",
+                "addressLocality": "Kanyakumari",
+                "addressRegion": "TN",
+                "postalCode": "629171",
+                "addressCountry": "IN"
+              },
+              "telephone": "+91 7418730964",
+              "openingHours": "Mo-Su 09:00-19:00",
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "8.283329",
+                "longitude": "77.179462"
+              }
+            }
+            </script>
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <header data-aos="fade-down" data-aos-duration="1000">
         <nav class="navbar">
-            <div class="logo">HALO</div>
+            <div class="logo">HALO HAIR</div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#face">Face</a></li>
-                <li><a href="#stylist">Stylist</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#" style="border-bottom: 2px solid #fff;">Home</a></li>
+                <li><a href="./aboutus/">About</a></li>
+                <li><a href="./services/">Services</a></li>
+                <li><a href="./academy/">Academy</a></li>
+                <li><a href="./contacts/">Contacts</a></li>
             </ul>
-            <div class="hamburger" onclick="toggleMenu()">
-                &#9776;
-              </div>
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-content" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500">
-            <h1>HALO HAIR</h1>
+            <h1>HALO HAIR & BEAUTY UNISEX SALON<br />TRAINING ACADEMY</h1>
             <p>CREATING ART THROUGH HAIR</p>
+
+            <div>
+                <a class="learn-more-button" href="./services/">SERVICES</a>
+                <a class="learn-more-button" href="./academy/">ACADAMICS</a>
+            </div>
         </div>
     </section>
 
     <!-- Services Section -->
     <section class="services" id="spa">
-        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Our Services</h2>
-        <div class="services-container">
-            <!-- Service 1 -->
-            <div class="service-item" data-aos="zoom-in" data-aos-delay="200">
-                <img src="https://via.placeholder.com/300x200" alt="Spa Services">
-                <h3>Spa Services</h3>
-                <p>Experience complete relaxation with our premium spa treatments tailored to soothe your mind and body.</p>
+        <h2 class="section-title" style="border-bottom: 2px solid #2c5d30;" data-aos="fade-up" data-aos-duration="1000">
+            Our Services
+        </h2>
+        <div class="service-wrap" data-aos="fade-up" data-aos-duration="1000">
+            <h3 class="service-text">HAIR</h3>
+            <div class="services-container">
+                <!-- Service 1 -->
+                <a href="./service/index.html">
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="./assets/hair_hero.jpg" alt="Hair" />
+                        <h3>Haircut</h3>
+                        <p>
+                            "Transform your look with a stylish haircut tailored to you.
+                            Precision styling to enhance your best features."
+                        </p>
+                    </div>
+                </a>
+                <!-- Service 2 -->
+                <a href="./service/haircolor.html">
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="./assets/haircolor_hero.jpg" alt="Hair color" />
+                        <h3>Hair Colour</h3>
+                        <p>
+                            "Add vibrancy to your locks with professional hair coloring
+                            services. From bold shades to natural hues, we’ve got you
+                            covered."
+                        </p>
+                    </div>
+                </a>
+                <!-- Service 3 -->
+                <a href="./service/protien.html">
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="./assets/protein-treatments1.jpg" alt="Protien Treatment" />
+                        <h3>⁠protein treatment</h3>
+                        <p>
+                            "Nourish and strengthen your hair with revitalizing protein
+                            treatments. Repair damage and restore shine to your strands."
+                        </p>
+                    </div>
+                </a>
+                <!-- Service 4 -->
+                <a href="./service/texture.html">
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="./assets/texture_treatment.jpg" alt="texture treatment" />
+                        <h3>Texture Treatment</h3>
+                        <p>
+                            "Enhance your natural texture with our smoothing treatments.
+                            Achieve sleek and manageable hair with long-lasting results."
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Service 5 -->
+                <a href="./service/hairspa.html">
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="./assets/hairspa2.jpg" alt="Hair spa" />
+                        <h3>Hair Spa</h3>
+                        <p>
+                            "Indulge in a relaxing hair spa session that deeply conditions
+                            your hair and rejuvenates your scalp............"
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Service 6 -->
+                <a href="./service/headmassage.html">
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="./assets/headmassage.jpg" alt="head massage" />
+                        <h3>Massage</h3>
+                        <p>
+                            "Unwind with our soothing massage services, relieving stress and
+                            promoting relaxation for your mind and body."
+                        </p>
+                    </div>
+                </a>
             </div>
-            <!-- Service 2 -->
-            <div class="service-item" data-aos="zoom-in" data-aos-delay="300">
-                <img src="https://via.placeholder.com/300x200" alt="Massage Therapy">
-                <h3>Massage Therapy</h3>
-                <p>Relax and rejuvenate with a variety of massages designed to release tension and improve well-being.</p>
-            </div>
-            <!-- Service 3 -->
-            <div class="service-item" data-aos="zoom-in" data-aos-delay="400">
-                <img src="https://via.placeholder.com/300x200" alt="Facial Treatments">
-                <h3>Facial Treatments</h3>
-                <p>Revitalize your skin with our customized facial treatments for a radiant and youthful look.</p>
-            </div>
-            <!-- Service 4 -->
-            <div class="service-item" data-aos="zoom-in" data-aos-delay="500">
-                <img src="https://via.placeholder.com/300x200" alt="Hair Care">
-                <h3>Hair Care</h3>
-                <p>Get the perfect look with our professional hair styling, coloring, and care services.</p>
+            <h3 class="service-text" style="padding: 40px 0">FACIAL</h3>
+
+            <div class="services-container">
+                <!-- Service 1 -->
+                <a href="./service/facial.html">
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="./assets/facial_hero.jpg" alt="Facial" />
+                        <h3>Facial</h3>
+                        <p>
+                            "Rejuvenate your skin with our soothing facial treatments for a
+                            radiant glow."
+                        </p>
+                    </div>
+                </a>
+                <!-- Service 2 -->
+                <a href="./service/waxing.html">
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="./assets/waxing.png" alt="Waxing" />
+                        <h3>Waxing</h3>
+                        <p>
+                            "Enjoy smooth, hair-free skin with our gentle and effective waxing
+                            services."
+                        </p>
+                    </div>
+                </a>
+                <!-- Service 3 -->
+                <a href="./service/medicure.html">
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="./assets/medicure-pedicure.jpg" alt="Medicure & Pedicure" />
+                        <h3>Manicure & Pedicure</h3>
+                        <p>
+                            "Pamper your hands and feet with our relaxing and luxurious
+                            mani-pedi services."
+                        </p>
+                    </div>
+                </a>
+                <!-- Service 4 -->
+                <a href="./service/threading.html">
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="./assets/threading.jpg" alt="Threading" />
+                        <h3>Threading</h3>
+                        <p>
+                            "Achieve perfectly shaped brows and smooth skin with our precise
+                            threading."
+                        </p>
+                    </div>
+                </a>
+                <!-- Service 5 -->
+                <a href="./service/detan.html">
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="./assets/detan1.jpg" alt="Detan" />
+                        <h3>Detan</h3>
+                        <p>
+                            "Reveal radiant and glowing skin with our expert detan treatments, designed for flawless
+                            results."
+                        </p>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section class="pricing-section">
-        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Our Pricing</h2>
-        <div class="pricing-categories">
-            <!-- Boys Pricing -->
-            <div class="pricing-category" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                <h3 class="category-title">For Boys</h3>
-                <div class="pricing-container">
-                    <div class="pricing-card" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
-                        <h3 class="pricing-title">Basic Package</h3>
-                        <p class="pricing-price">$29</p>
-                        <ul class="pricing-features">
-                            <li>Haircut</li>
-                            <li>Beard Trim</li>
-                            <li>Head Massage</li>
-                        </ul>
-                        <button class="pricing-button">Book Now</button>
-                    </div>
-                    <div class="pricing-card" data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
-                        <h3 class="pricing-title">Premium Package</h3>
-                        <p class="pricing-price">$59</p>
-                        <ul class="pricing-features">
-                            <li>Haircut & Styling</li>
-                            <li>Facial Cleanse</li>
-                            <li>Full Beard Grooming</li>
-                            <li>Relaxing Head Massage</li>
-                        </ul>
-                        <button class="pricing-button">Book Now</button>
-                    </div>
-                </div>
+    <!-- Academy Section -->
+    <section class="academy-section">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">
+            Our Academy
+        </h2>
+        <div class="academy-container">
+            <div class="course" data-aos="zoom-in" data-aos-delay="200">
+                <h3>Master in Hair Course</h3>
+                <p>Learn the fundamentals to professional in hair styling and grooming.</p>
+                <a href="./academy/#courses" class="learn-more-button">Learn More</a>
             </div>
-
-            <!-- Girls Pricing -->
-            <div class="pricing-category" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                <h3 class="category-title">For Girls</h3>
-                <div class="pricing-container">
-                    <div class="pricing-card" data-aos="flip-right" data-aos-delay="300" data-aos-duration="1000">
-                        <h3 class="pricing-title">Basic Package</h3>
-                        <p class="pricing-price">$49</p>
-                        <ul class="pricing-features">
-                            <li>Haircut & Blow Dry</li>
-                            <li>Basic Facial</li>
-                            <li>Manicure</li>
-                        </ul>
-                        <button class="pricing-button">Book Now</button>
-                    </div>
-                    <div class="pricing-card premium" data-aos="flip-right" data-aos-delay="400" data-aos-duration="1000">
-                        <h3 class="pricing-title">Luxury Package</h3>
-                        <p class="pricing-price">$99</p>
-                        <ul class="pricing-features">
-                            <li>Haircut & Styling</li>
-                            <li>Luxury Facial</li>
-                            <li>Spa Manicure & Pedicure</li>
-                            <li>Relaxing Body Massage</li>
-                        </ul>
-                        <button class="pricing-button">Book Now</button>
-                    </div>
-                </div>
+            <div class="course" data-aos="zoom-in" data-aos-delay="300">
+                <h3>Master in Hair and Skin Course</h3>
+                <p>Master advanced beauty techniques and elevate your skills.</p>
+                <a href="./academy/#courses" class="learn-more-button">Learn More</a>
             </div>
         </div>
     </section>
 
     <!-- Testimonials Section -->
     <section class="testimonials">
-        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">What Our Clients Say</h2>
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">
+            What Our Clients Say
+        </h2>
         <div class="testimonial-container">
             <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
-                <div class="client-image">
-                    <img src="https://via.placeholder.com/80" alt="Client 1">
-                </div>
+
                 <p class="testimonial-text">
-                    "Absolutely the best salon experience I've ever had! The staff were friendly and professional. I felt pampered and relaxed. Highly recommend!"
+                    "Absolutely the best salon experience I've ever had! The staff were
+                    friendly and professional. I felt pampered and relaxed. Highly
+                    recommend!"
                 </p>
                 <h4 class="client-name">– Sarah Johnson</h4>
             </div>
 
             <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
-                <div class="client-image">
-                    <img src="https://via.placeholder.com/80" alt="Client 2">
-                </div>
                 <p class="testimonial-text">
-                    "A five-star service from start to finish! The atmosphere was luxurious, and the massage was perfect. Can't wait to return!"
+                    "A five-star service from start to finish! The atmosphere was
+                    luxurious, and the massage was perfect. Can't wait to return!"
                 </p>
                 <h4 class="client-name">– Emily Brown</h4>
             </div>
 
             <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
-                <div class="client-image">
-                    <img src="https://via.placeholder.com/80" alt="Client 3">
-                </div>
+
                 <p class="testimonial-text">
-                    "The facial treatment left my skin glowing! The entire experience was serene and rejuvenating. Worth every penny."
+                    "The facial treatment left my skin glowing! The entire experience
+                    was serene and rejuvenating. Worth every penny."
                 </p>
                 <h4 class="client-name">– Michael Williams</h4>
             </div>
@@ -168,34 +288,56 @@
 
     <!-- Contact Section -->
     <section class="contact-section">
-        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Get In Touch</h2>
-        <p class="contact-intro" data-aos="fade-up" data-aos-delay="200">We would love to hear from you! Feel free to contact us for appointments or any inquiries.</p>
+        <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000">
+            Get In Touch
+        </h2>
+        <p class="contact-intro" data-aos="fade-up" data-aos-delay="200">
+            We would love to hear from you! Feel free to contact us for appointments
+            or any inquiries.
+        </p>
         <div class="contact-container">
             <div class="contact-info" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                 <h3>Our Address</h3>
-                <p>123 Salon Street,<br> New York, NY 10001</p>
+                <p>
+                    <i class="fas fa-shop"></i> Muncharai,<br />
+                    Pudukadai 629-171
+                </p>
 
                 <h3>Contact Details</h3>
-                <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
-                <p>Email: <a href="mailto:info@yukienatori.com">info@yukienatori.com</a></p>
+                <p>
+                    <i class="fas fa-phone"></i> Phone:
+                    <a href="tel:+917418730964">+91 7418730964</a>
+                </p>
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    Email:
+                    <a href="mailto:dineschinnu12@gmail.com">dineschinnu12@gmail.com</a>
+                </p>
+
+                <div class="social-icons">
+                    <a href="https://facebook.com/DineshDinesh(chinnu)" target="_blank">
+                        <i class="fab fa-facebook" style="margin-right: 6px"></i>
+                    </a>
+                    <a href="https://youtube.com/yourchannel" target="_blank">
+                        <i class="fab fa-youtube" style="margin-right: 6px"></i>
+                    </a>
+                    <a href="https://wa.me/7418730964" target="_blank">
+                        <i class="fab fa-whatsapp" style="margin-right: 6px"></i>
+                    </a>
+                    <a href="https://www.instagram.com/halo__hair" target="_blank">
+                        <i class="fab fa-instagram" style="margin-right: 6px"></i>
+                    </a>
+                </div>
 
                 <h3>Working Hours</h3>
-                <p>Mon - Sat: 9:00 AM - 7:00 PM</p>
-                <p>Sunday: Closed</p>
+                <p><i class="fas fa-clock"></i> Mon - Sun: 9:00 AM - 7:00 PM</p>
+                <p><i class="fas fa-calendar-times"></i> Tuesday: Closed for men</p>
             </div>
-            <form class="contact-form" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-                <h3>Send Us a Message</h3>
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
-                <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
-
-                <button type="submit" class="submit-button">Send Message</button>
-            </form>
+            <div class="map-container" data-aos="fade-up" data-aos-delay="300">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.1954874795138!2d77.17688657360387!3d8.283333900218057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05ab1da5b43857%3A0x9dda177ec1b74925!2sHalo%20hair%20%26beauty%20unisex%20salon!5e0!3m2!1sen!2sin!4v1734665773591!5m2!1sen!2sin"
+                    class="responsive-map" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
     </section>
 
@@ -203,46 +345,48 @@
     <footer class="footer-section" data-aos="fade-up" data-aos-duration="1000">
         <div class="footer-container">
             <div class="footer-branding" data-aos="fade-up" data-aos-delay="200">
-                <h2>Your Brand</h2>
-                <p>Empowering your dreams, one step at a time. Let's make something extraordinary together!</p>
+                <h2>H A L O &nbsp; H A I R</h2>
+                <p>
+                    C R E A T I N G &nbsp;&nbsp;&nbsp; A R T&nbsp;&nbsp;&nbsp; T H R O U G H &nbsp;&nbsp;&nbsp; H A I R
+                </p>
                 <div class="footer-social-icons">
-                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100056908405553" class="social-icon"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/7418730964" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/halo__hair" class="social-icon"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/@halo__hair1070?si=DyiH6tEQY-BYNfxT" class="social-icon"><i
+                            class="fab fa-youtube"></i></a>
                 </div>
             </div>
             <div class="footer-links" data-aos="fade-up" data-aos-delay="300">
                 <h3>Quick Links</h3>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="./aboutus/">Aboutus</a></li>
+                    <li><a href="./services/">Services</a></li>
+                    <li><a href="./academy/">Academy</a></li>
+                    <li><a href="./contacts/">Contacts</a></li>
                 </ul>
             </div>
             <div class="footer-contact" data-aos="fade-up" data-aos-delay="400">
-                
-
-            <h3>Contact Us</h3>
-            <ul>
-                <li>Email: <a href="mailto:info@yourbrand.com">info@yourbrand.com</a></li>
-                <li>Phone: <a href="tel:+1234567890">+123-456-7890</a></li>
-                <li>Location: 123 Dream Street, Creative City</li>
-            </ul>
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>
+                        Email: <a href="mailto:dineschinnu12@gmail.com">dineschinnu12@gmail.com</a>
+                    </li>
+                    <li>Phone: <a href="tel:+917418730964">+91 7418730964</a></li>
+                    <li>Location: Muncharai, Pudukadai, 629-171</li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2024 Your Brand. Crafted with ❤️ and creativity.</p>
-    </div>
-</footer>
-
-
-
-
+        <div class="footer-bottom">
+            <p>&copy; Halo hair. Crafted with creativity.</p>
+        </div>
+    </footer>
 
     <!-- Scripts -->
     <script src="script.js"></script>
 </body>
+
 </html>
