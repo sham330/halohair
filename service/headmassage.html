@@ -26,6 +26,47 @@
             color: #333;
             line-height: 1.6;
         }
+        .whatsapp-link {
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    z-index: 1000; /* Ensure it appears above other elements */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25D366; /* WhatsApp green */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.whatsapp-link img {
+    width: 70%;
+    height: 70%;
+}
+
+.whatsapp-link:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Ensure it's fully visible on small screens */
+@media (max-width: 600px) {
+    .whatsapp-link {
+        width: 50px;
+        height: 50px;
+        bottom: 15px; /* Adjust spacing for smaller screens */
+        right: 15px;
+    }
+
+    .whatsapp-link img {
+        width: 60%;
+        height: 60%;
+    }
+}
+
 
         header {
             position: fixed;
@@ -520,6 +561,14 @@
             <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
         </nav>
     </header>
+    <a
+    href="https://wa.me/7418730964"
+    class="whatsapp-link"
+    target="_blank"
+    aria-label="Chat with us on WhatsApp"
+>
+    <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp Icon">
+</a>
 
     <!-- Hero Section -->
     <section id="hero">
