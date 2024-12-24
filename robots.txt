@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://halohair.co.in/sitemap.xml
